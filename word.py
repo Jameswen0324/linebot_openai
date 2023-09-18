@@ -1,6 +1,6 @@
-from linebot import (LineBotApi, WebhookHandler)
-from linebot.exceptions import (InvalidSignatureError)
-from linebot.models import *
+from linebot_openai import (LineBotApi, WebhookHandler)
+from linebot_openai.exceptions import (InvalidSignatureError)
+from linebot_openai.models import *
 import random
 #output文字庫
 def Fun(n):
