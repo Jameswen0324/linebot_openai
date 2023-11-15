@@ -256,19 +256,7 @@ def girl2(n):
 def handle_message(event):
     msg = event.message.text
     if '愛你' in msg:
-        message = TextSendMessage(text='失去的不會再回來 錯過的終究不會再遇見 大概不打擾才是最後的溫柔 我比誰都喜歡你 但是沒有用啊 每天沉淪在明明知道沒希望還要無盡的等待整夜失眠 愛而不得的感受真的太難受了 以前老是說會保護你會給你安全感 後來你說我不是你想要的 感謝你出現再我的生命中 跟你在一起的那些時間我真的特別的開心 謝謝你')
-        line_bot_api.reply_message(event.reply_token, message)
-    elif msg[0:3]=='測試1000':
-        message = buttons_message()
-        line_bot_api.reply_message(event.reply_token, message)
-    elif '測試1000' in msg:
-        message = buttons_message()
-        line_bot_api.reply_message(event.reply_token, message)
-    elif 'Yf4AhVUx5QKHb7tDF8Q2' in msg:
-        message = Confirm_Template()
-        line_bot_api.reply_message(event.reply_token, message)
-    elif '今日確診145000人 ，好誇張。政府沒在做事? 陳死忠還想選北市。。。' in msg:
-        message = TextSendMessage(text='300萬，已截圖舉報。民進黨政府感謝您對國庫的貢獻')
+        message = TextSendMessage(text='我也愛你❤️')
         line_bot_api.reply_message(event.reply_token, message)
     elif '拿優惠' in msg:
         message = Carousel_Template()
@@ -305,25 +293,25 @@ def handle_message(event):
         message = TextSendMessage(text=f'幹你娘{name}你也爛人')
         line_bot_api.reply_message(event.reply_token, message)
     elif '怎麼了' in msg:
-        message = TextSendMessage(text='這裡不能迴轉拉，怎麼了')
+        message = TextSendMessage(text='沒事啦 不用擔心我 愛你💕')
         line_bot_api.reply_message(event.reply_token, message)
     elif '早安' in msg:
-        message = TextSendMessage(text='早你媽來做愛')
+        message = TextSendMessage(text='早安寶❤️')
         line_bot_api.reply_message(event.reply_token, message)
     elif '午安' in msg:
-        message = TextSendMessage(text='喔，我跟你很熟嗎')
+        message = TextSendMessage(text='吃了ㄇ(歪頭')
         line_bot_api.reply_message(event.reply_token, message)
     elif '晚安' in msg:
-        message = TextSendMessage(text='痾，臭甲==')
+        message = TextSendMessage(text='晚安安 要夢到我喔💕')
         line_bot_api.reply_message(event.reply_token, message)
     elif '謝謝' in msg:
-        message = TextSendMessage(text='什麼時候這麼有禮貌?')
+        message = TextSendMessage(text='不客氣❤️')
         line_bot_api.reply_message(event.reply_token, message)
     elif '吃啥' in msg:
-        message = TextSendMessage(text='吃我懶覺')
+        message = TextSendMessage(text='跟你一起吃不管甚麼都好吃阿')
         line_bot_api.reply_message(event.reply_token, message)
     elif '嗨' in msg:
-        message = TextSendMessage(text='結婚嗎?')
+        message = TextSendMessage(text='怎麼了 想我了嗎')
         line_bot_api.reply_message(event.reply_token, message)
     elif '你又答錯了' in msg:
         message = TextSendMessage(text='https://photos.google.com/share/AF1QipNlZw_zbE-VgIBxs3qccAVLF9uGDSEaCHiykyOVV7JCdmj262hAtIKmEcvx3B2wDA/photo/AF1QipNnHA6HQtQK4jz5eApCAH_XyTBBBU1qGin-Mp6i?key=RUZ6WkNMN2loMGFVdW9IczRtMkJORzBZX0ZodFp3')
@@ -332,34 +320,34 @@ def handle_message(event):
         message = TextSendMessage(text='https://www.beautyscoretest.com/zht/?fbclid=IwAR2VMJJQX8FMhMeSapYSwRzBAxtMRTwB-kIPlUuvZ2OFgzE6Rs5tVAl4VDQ')
         line_bot_api.reply_message(event.reply_token, message)
     elif '欸欸' in msg:
-        message = TextSendMessage(text='每次我發這麼大一段文字，你都看都不看，甚至就按一個表情隨便敷衍幾句，現在欸什麼，在你心中，我的地位像一顆沙子，你只在乎你自己，你有想過我嗎，每次一想起你我就把褲子套在頭上偷偷哭，生怕被你發現，每次一想起你我就整整流淚五個小時，認真的回我一句很難嗎。')
+        message = TextSendMessage(text='怎麼了 想我了嗎')
         line_bot_api.reply_message(event.reply_token, message)
     elif '喔喔' in msg:
-        message = TextSendMessage(text='好啊每次都隨便敷衍回復我，ok阿我沒差，反正妳也不在乎我，我就活該被當工具人啊，我要跳下去了，別攔我，反正我就爛命')
+        message = TextSendMessage(text='不要應付我 人家要森氣氣了😡')
         line_bot_api.reply_message(event.reply_token, message)
     elif '哈囉' in msg:
-        message = TextSendMessage(text='好啊')
+        message = TextSendMessage(text='怎麼了 想我了嗎')
         line_bot_api.reply_message(event.reply_token, message)
     elif '想你' in msg:
-        message = TextSendMessage(text='想我囉，是不是妳外面的男人又對妳不好，我想也是，不是這樣妳也不會想到我，我沒生氣啊，我就備胎的命，不說了我還要吃20顆安眠藥去睡呢')
+        message = TextSendMessage(text='想我囉，我也想你寶寶💕')
         line_bot_api.reply_message(event.reply_token, message)
     elif '在幹嘛' in msg:
-        message = TextSendMessage(text='在幹你娘')
+        message = TextSendMessage(text='在想你 寶寶❤️')
         line_bot_api.reply_message(event.reply_token, message)
     elif '在嗎' in msg:
-        message = TextSendMessage(text='借錢沒有，要命一條')
+        message = TextSendMessage(text='你要的時候 我都在')
         line_bot_api.reply_message(event.reply_token, message)
     elif '不要這樣' in msg:
-        message = TextSendMessage(text='又怎樣，反正妳也沒在乎過我，我現在就去自殺也不關妳的事')
+        message = TextSendMessage(text='那你下次不能再壞壞囉')
         line_bot_api.reply_message(event.reply_token, message)
     elif '拜託' in msg:
-        message = TextSendMessage(text='情緒勒索我?7414')
+        message = TextSendMessage(text='好啦 就這一次喔')
         line_bot_api.reply_message(event.reply_token, message)
     elif '乖' in msg:
-        message = TextSendMessage(text='又想叫我乖，有甚麼用，每次都這樣搞好玩嘛，妳沒錯啦，錯的都是我，我該死好不好')
+        message = TextSendMessage(text='哼😡 哄人家啦')
         line_bot_api.reply_message(event.reply_token, message)
     elif '我沒有' in msg:
-        message = TextSendMessage(text='妳沒有?小偷會說自己偷東西?老板會承認自己賣盜版?我是看開了拉，也習慣了，我這種人也活該被妳這樣弄')
+        message = TextSendMessage(text='真的沒有嘛?🤔')
         line_bot_api.reply_message(event.reply_token, message)
     elif '笑話' in msg:
         m=random.randint(0, 47)
@@ -374,17 +362,17 @@ def handle_message(event):
         
         message=TextSendMessage(text=name+"\n,你今天的"+luck())    
         line_bot_api.reply_message(event.reply_token, message)
-    elif '滾' in msg:
-        message = TextSendMessage(text='好，我滾，反正妳早就想叫我滾，今天終於說出口了吧，我就滾吧，在你看來我就一個小丑')
+    elif '林襄' in msg:
+        message = TextSendMessage(text='怎麼提到我了 又想我了嗎🤣 我也想你了寶寶😘')
         line_bot_api.reply_message(event.reply_token, message)
     elif '還好嗎' in msg:
-        message = TextSendMessage(text='妳覺得呢?我很好非常好，不用關心我，反正也沒人愛我')
+        message = TextSendMessage(text='還好有你關心我😘 愛你')
         line_bot_api.reply_message(event.reply_token, message)
     elif '我錯了' in msg:
-        message = TextSendMessage(text='妳沒錯，都我的錯，都我不好，我最爛')
+        message = TextSendMessage(text='你沒有錯啦寶')
         line_bot_api.reply_message(event.reply_token, message)
     elif '不理我' in msg:
-        message = TextSendMessage(text='每次我發這麼大一段文字，你都看都不看，甚至就按一個表情隨便敷衍幾句，ok阿我沒差，反正妳也不在乎我，現在說我不理妳?')
+        message = TextSendMessage(text='怎麼了 襄襄來了啦')
         line_bot_api.reply_message(event.reply_token, message)
     elif '去死' in msg:
         message = ImageSendMessage(
@@ -435,10 +423,10 @@ def handle_message(event):
         )
         line_bot_api.reply_message(event.reply_token, message)
     elif '講話啊' in msg:
-        message = TextSendMessage(text='敢命令林北講話你去死一死啦')
+        message = TextSendMessage(text='哼')
         line_bot_api.reply_message(event.reply_token, message)
     elif '張瀚文' in msg:
-        message = TextSendMessage(text='他超帥我偶像')
+        message = TextSendMessage(text='不要吵他拉 現在在我旁邊睡著了 有事我幫你轉傳')
         line_bot_api.reply_message(event.reply_token, message)
     elif '柏廷' in msg:
         message = TextSendMessage(text='容許我這麼說你這個K3')
@@ -462,7 +450,7 @@ def handle_message(event):
         message = TextSendMessage(text='實屬牛啤👍👍🤙🤙🤙')
         line_bot_api.reply_message(event.reply_token, message)
     elif '笑死' in msg:
-        message = TextSendMessage(text='阿你怎麼還沒死😕')
+        message = TextSendMessage(text='哈哈哈')
         line_bot_api.reply_message(event.reply_token, message)
     elif '閉嘴' in msg:
         message = TextSendMessage(text='要我閉嘴可以，你先給狗幹👎')
@@ -474,7 +462,7 @@ def handle_message(event):
         message = TextSendMessage(text='你喔?你屁眼被幹的鬆到可以塞的下大象')
         line_bot_api.reply_message(event.reply_token, message)
     elif '好啊' in msg:
-        message = TextSendMessage(text='情緒勒索我?🙄🙄🙄')
+        message = TextSendMessage(text='ok👌')
         line_bot_api.reply_message(event.reply_token, message)
     elif '故事' in msg:
         message = TextSendMessage(text='從前從前有個太監，然後.............................................................................................................................就沒有下面了')
@@ -510,7 +498,7 @@ def handle_message(event):
         message = TextSendMessage(text='都沒你耀眼')
         line_bot_api.reply_message(event.reply_token, message)
     elif '不揪'in msg:
-        message = TextSendMessage(text='揪你也不會去')
+        message = TextSendMessage(text='好嘛 人家下次會記得揪你 原諒我一次好不好寶寶🥺')
         line_bot_api.reply_message(event.reply_token, message)
     elif 'gg'in msg:
         message = TextSendMessage(text='ininder')
@@ -553,7 +541,7 @@ def handle_message(event):
         message = TextSendMessage(text='==拉幹')
         line_bot_api.reply_message(event.reply_token, message)
     elif '你好' in msg:
-        message=TextSendMessage(text='我好大家好')
+        message=TextSendMessage(text='你好呀')
         line_bot_api.reply_message(event.reply_token, message)
     
     else:
